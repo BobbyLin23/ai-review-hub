@@ -4,6 +4,8 @@
 
 <template>
   <div>
-    <Button>Click</Button>
+    <Hero />
+    <Search />
+    <Content />
   </div>
 </template>
