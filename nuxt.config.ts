@@ -6,9 +6,13 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
     '@nuxtjs/color-mode',
+    'nuxt-icon',
   ],
   shadcn: {
     prefix: '',
     componentDir: './components/ui',
+  },
+  colorMode: {
+    classSuffix: '',
   },
 })
